@@ -274,6 +274,69 @@ input[type=search]:focus {
 		width: 400px;
 		height: auto;
 	}
+	.myslideone{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-1.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+		}
+	}
+	.myslidetwo{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-2.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+		}
+	}
+	.myslidethree{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-3.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+		}
+	}
+	.myslidefour{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-4.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+		}
+	}
+		.myslidefive{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-5.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+			}
+		}
+		.myslidesix{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-6.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+			}
+		}
+		.myslideseven{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-7.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+			}
+		}
+		.myslideeight{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-9.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+			}
+		}
+		.myslidenine{
+		&:hover{
+			background: right 145px url(../img/man/t-shirt/2-8.jpg) no-repeat;
+			background-size:contain;
+		  	transition: 0.7s;
+			}
+		}
 	.slideone{
 		&:hover{
 			background: right 80px url(../img/popular/1-2.jpg) no-repeat;
@@ -353,12 +416,42 @@ input[type=search]:focus {
 	.slideseven,
 	.slideeight,
 	.slidenine,
-	.slideten{
+	.slideten,
+	.myslideone,
+	.myslidetwo,
+	.myslidethree,
+	.myslidefour,
+	.myslidefive,
+	.myslidesix,
+	.myslideseven,
+	.myslidenine,
+	.myslideeight{
 		&:hover{
 			border: 3px solid #9c9c9c;
 			transition: 0.2s;
 			img{
 				display: none;
+			}
+			.sales{
+			display: block;
+			}
+		}
+	}
+	.myslideone,
+	.myslidetwo,
+	.myslidethree,
+	.myslidefour,
+	.myslidefive,
+	.myslidesix,
+	.myslideseven,
+	.myslidenine,
+	.myslideeight{
+		&:hover{
+			.sales,
+			.saless,
+			.salesss{
+				transform: translateY(15rem);
+				transition: 0.7s;
 			}
 		}
 	}
@@ -907,4 +1000,30 @@ input[type=search]:focus {
 			margin-left: 0.5rem;
 		}
 	}
+}
+.redsh{
+	transform: translateY(25px);
+}
+.bluesh{
+	margin-left: 5rem;
+}
+.bluesh:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 33px; 
+	top: 20px; 
+	border: 7px solid; 
+	border-color: #12A1C5 transparent transparent #12A1C5; 
+}
+.redsh:before { 
+	content: ' '; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	left: 33px; 
+	top: 20px; 
+	border: 7px solid; 
+	border-color: @mainRed transparent transparent @mainRed; 
 }
