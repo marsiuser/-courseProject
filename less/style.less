@@ -779,3 +779,132 @@ input[type=search]:focus {
 		margin-top: -1rem;
 	}
 }
+/* ----------------------- GOODS ---------------------- */
+.tshirt{
+	width: 100%;
+	height: auto;
+	padding: 5rem 0rem;
+	.red{
+		background-color: @mainRed;
+	}
+	&-categories{
+		background-color: #fff;
+		width: 230px;
+		height: 1600px;
+		padding: 0.5rem 1rem;
+		color: #535353;
+		h6{
+			text-transform: uppercase;
+		}
+	}
+	&-menu{
+		margin-left: -2.5rem;
+		a{
+			color: #535353;
+		}
+		li{
+			line-height: 2rem;
+		}
+	}
+	&-mainli{
+		font-weight: 600;
+	}
+	li::before{
+				content: "\2b29";
+				width: 4px;
+				height: 2px;
+				color: @mainRed;
+					
+	}
+	&-ne{
+		margin-top: 2.3rem;
+	}
+	&-mm{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+	&-new{
+		width: 230px;
+		height: 87px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+		img{
+			width: 58px;
+			height: 87px;
+			margin-right: 1.6rem;
+		}
+		p{
+			font-size: 14px;
+			color: #000;
+			padding-top: 2rem;
+		}
+		span{
+			line-height: 2rem;
+			font-weight: 600;
+			margin-top: 0;
+			padding: 0;
+		}
+		.season-black{
+		display: inline-block;
+		&:hover{
+			outline: 3px solid @mainRed;
+			transition: 0.2s;
+		}
+	}
+		del{
+			font-weight: 400;
+		}
+		a:hover{
+			color: @mainRed;
+		}
+	}
+	.btn-secondary {
+		color: #000;
+		background-color: #fff;
+		border-color: #6c757d;
+		font-size: 14px;
+		margin-right: 1rem;
+		&:hover{
+			background-color: @mainRed;
+			}
+		&:focus{
+			background-color: @mainRed;
+			}
+		}
+	.bb{
+		width: 160px;
+	}
+	.sec-goods{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.col-md-12{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.slide{
+		width: 240px;
+	}
+	.im-goods{
+		p{
+			margin-top: -1.5rem;
+		}
+	}
+	.hoverslide{
+		img{
+			margin-right: 12rem;
+			width: 235px;
+			height: auto;
+		}
+	}
+	.pages{
+		margin-top: 3rem;
+		span{
+			margin-left: 0.5rem;
+		}
+	}
+}
